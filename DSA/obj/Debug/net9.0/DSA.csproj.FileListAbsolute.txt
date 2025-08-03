@@ -1,0 +1,14 @@
+C:\Project\Practice\DSA\bin\Debug\net9.0\DSA.exe
+C:\Project\Practice\DSA\bin\Debug\net9.0\DSA.deps.json
+C:\Project\Practice\DSA\bin\Debug\net9.0\DSA.runtimeconfig.json
+C:\Project\Practice\DSA\bin\Debug\net9.0\DSA.dll
+C:\Project\Practice\DSA\bin\Debug\net9.0\DSA.pdb
+C:\Project\Practice\DSA\obj\Debug\net9.0\DSA.GeneratedMSBuildEditorConfig.editorconfig
+C:\Project\Practice\DSA\obj\Debug\net9.0\DSA.AssemblyInfoInputs.cache
+C:\Project\Practice\DSA\obj\Debug\net9.0\DSA.AssemblyInfo.cs
+C:\Project\Practice\DSA\obj\Debug\net9.0\DSA.csproj.CoreCompileInputs.cache
+C:\Project\Practice\DSA\obj\Debug\net9.0\DSA.dll
+C:\Project\Practice\DSA\obj\Debug\net9.0\refint\DSA.dll
+C:\Project\Practice\DSA\obj\Debug\net9.0\DSA.pdb
+C:\Project\Practice\DSA\obj\Debug\net9.0\DSA.genruntimeconfig.cache
+C:\Project\Practice\DSA\obj\Debug\net9.0\ref\DSA.dll

@@ -1,0 +1,105 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Project\\Practice\\DSA\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{916D1082-CB5F-48DB-9E8E-9E629926BD27}|DSA.csproj|c:\\project\\practice\\dsa\\fibonacci\\iteractiveapproach.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{916D1082-CB5F-48DB-9E8E-9E629926BD27}|DSA.csproj|solutionrelative:fibonacci\\iteractiveapproach.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{916D1082-CB5F-48DB-9E8E-9E629926BD27}|DSA.csproj|c:\\project\\practice\\dsa\\fibonacci\\uninglinq.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{916D1082-CB5F-48DB-9E8E-9E629926BD27}|DSA.csproj|solutionrelative:fibonacci\\uninglinq.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{916D1082-CB5F-48DB-9E8E-9E629926BD27}|DSA.csproj|c:\\project\\practice\\dsa\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{916D1082-CB5F-48DB-9E8E-9E629926BD27}|DSA.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{916D1082-CB5F-48DB-9E8E-9E629926BD27}|DSA.csproj|c:\\project\\practice\\dsa\\fibonacci\\dynamicprogramming.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{916D1082-CB5F-48DB-9E8E-9E629926BD27}|DSA.csproj|solutionrelative:fibonacci\\dynamicprogramming.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{916D1082-CB5F-48DB-9E8E-9E629926BD27}|DSA.csproj|c:\\project\\practice\\dsa\\fibonacci\\recursiveapproach.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{916D1082-CB5F-48DB-9E8E-9E629926BD27}|DSA.csproj|solutionrelative:fibonacci\\recursiveapproach.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UningLINQ.cs",
+              "DocumentMoniker": "C:\\Project\\Practice\\DSA\\Fibonacci\\UningLINQ.cs",
+              "RelativeDocumentMoniker": "Fibonacci\\UningLINQ.cs",
+              "ToolTip": "C:\\Project\\Practice\\DSA\\Fibonacci\\UningLINQ.cs",
+              "RelativeToolTip": "Fibonacci\\UningLINQ.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwBAAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-03T04:32:03.536Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DynamicProgramming.cs",
+              "DocumentMoniker": "C:\\Project\\Practice\\DSA\\Fibonacci\\DynamicProgramming.cs",
+              "RelativeDocumentMoniker": "Fibonacci\\DynamicProgramming.cs",
+              "ToolTip": "C:\\Project\\Practice\\DSA\\Fibonacci\\DynamicProgramming.cs",
+              "RelativeToolTip": "Fibonacci\\DynamicProgramming.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwB0AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-03T04:29:27.081Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Project\\Practice\\DSA\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Project\\Practice\\DSA\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-03T03:36:22.483Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "IteractiveApproach.cs",
+              "DocumentMoniker": "C:\\Project\\Practice\\DSA\\Fibonacci\\IteractiveApproach.cs",
+              "RelativeDocumentMoniker": "Fibonacci\\IteractiveApproach.cs",
+              "ToolTip": "C:\\Project\\Practice\\DSA\\Fibonacci\\IteractiveApproach.cs",
+              "RelativeToolTip": "Fibonacci\\IteractiveApproach.cs",
+              "ViewState": "AgIAAAgAAABgAAAAAAARwCAAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-03T04:26:44.724Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "RecursiveApproach.cs",
+              "DocumentMoniker": "C:\\Project\\Practice\\DSA\\Fibonacci\\RecursiveApproach.cs",
+              "RelativeDocumentMoniker": "Fibonacci\\RecursiveApproach.cs",
+              "ToolTip": "C:\\Project\\Practice\\DSA\\Fibonacci\\RecursiveApproach.cs",
+              "RelativeToolTip": "Fibonacci\\RecursiveApproach.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwBkAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-03T04:19:39.708Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
