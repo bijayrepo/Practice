@@ -1,4 +1,6 @@
 ﻿using DSA.Arrays;
+using DSA.LINQ;
+using DSA.List;
 
 namespace DSA
 {
@@ -13,8 +15,10 @@ namespace DSA
             //Fibonacci.UningLINQ.Run();
             //Fibonacci Series End
             //Arrays
-            TraverseArrays.Traverse();
-            LinearSearch.Linear(5);
+            //TraverseArrays.Traverse();
+            //LinearSearch.Linear(5);
+            //ReversingList.Run();
+            LinqQuery.Linq();
             Console.WriteLine();
         }
     }
