@@ -18,7 +18,8 @@ namespace DSA
             //TraverseArrays.Traverse();
             //LinearSearch.Linear(5);
             //ReversingList.Run();
-            LinqQuery.Linq();
+            //LinqQuery.Linq();
+            TimeComplexity.InsertionSort.Sort();
             Console.WriteLine();
         }
     }
