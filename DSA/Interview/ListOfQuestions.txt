@@ -3,6 +3,7 @@
 🔹 Array & String
 
 Reverse an array or string
+Find Duplicate Characters
 Find the largest/smallest element in an array
 Check if a string is a palindrome
 Remove duplicates from an array
