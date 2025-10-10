@@ -21,7 +21,6 @@ namespace DSA.Interview
             string reversedString = new string(charArray);
             Console.WriteLine("Reversed string: " + reversedString);
         }
-       
         public override void FindDuplicateCharacters(string input)
         {
             var characterCount = new Dictionary<char, int>();
@@ -211,7 +210,6 @@ namespace DSA.Interview
             arr[i] = arr[j];
             arr[j] = temp;
         }
-
         //Mathmatical &  Logical Problems
         private void CheckPrime(int number)
         {
@@ -355,6 +353,35 @@ namespace DSA.Interview
             iq.Fibonacci(7);
             iq.Factorial(5);
             iq.TowerOfHanoi(3, 'A', 'C', 'B');
+            //Linked List Problems
+            InterviewQuestionIntermediate iqi = new InterviewQuestionIntermediate();
+            iqi.ReverseLinkedList(new List<int> { 1, 2, 3, 4, 5 });
+            iqi.DetectCycleInLinkedList(new List<int> { 1, 2, 3, 4, 5 });
+            iqi.FindMiddleOfLinkedList(new List<int> { 1, 2, 3, 4, 5 });
+        }
+    }
+    internal class InterviewQuestionIntermediate: InterviewQuestionsBase
+    {
+        internal void ReverseLinkedList(List<int>list)
+        {
+            Console.WriteLine("Original Linked List: " + string.Join("->", list));
+            list.Reverse();
+            Console.WriteLine("Reversed Linked List: " + string.Join("->", list));
+        }
+        internal void DetectCycleInLinkedList(List<int> list)
+        {
+            // This is a placeholder implementation as List<int> does not support cycles.
+            Console.WriteLine("Detecting cycle in Linked List is not applicable for List<int>.");
+        }
+        internal void FindMiddleOfLinkedList(List<int> list)
+        {
+            if (list == null || list.Count == 0)
+            {
+                Console.WriteLine("Linked List is empty.");
+                return;
+            }
+            int midIndex = list.Count / 2;
+            Console.WriteLine($"Middle element of the Linked List is: {list[midIndex]}");
         }
     }
 }

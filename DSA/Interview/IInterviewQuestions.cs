@@ -46,7 +46,10 @@ namespace DSA.Interview
         protected void Fibonacci(int n) { }
         protected void Factorial(int n) { }
         protected void TowerOfHanoi(int n, char source, char destination, char auxiliary) { }
-
+        //Linked List Problems
+        internal void ReverseLinkedList(List<int> list) { }
+        internal void DetectCycleInLinkedList(List<int> list) { }
+        internal void FindMiddleOfLinkedList(List<int> list) { }
     }
     internal interface IInterviewQuestions
     {
@@ -70,7 +73,10 @@ namespace DSA.Interview
         protected void Fibonacci(int n) { }
         protected void Factorial(int n) { }
         protected void TowerOfHanoi(int n, char source, char destination, char auxiliary) { }
-
+        //Linked List Problems
+        internal void ReverseLinkedList(List<int> list) { }   
+        internal void DetectCycleInLinkedList(List<int> list) { }
+        internal void FindMiddleOfLinkedList(List<int> list) { }
     }
 
 }
