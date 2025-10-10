@@ -47,6 +47,8 @@ Inorder, Preorder, Postorder traversal
 Find height of a binary tree
 Check if two trees are identical
 
+🔹 Dynamic Programming (Basic)
+
 Reverse a Linked List
 Merge Intervals
 Implement Queue using Stacks

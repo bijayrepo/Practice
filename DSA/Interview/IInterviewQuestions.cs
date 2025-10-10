@@ -24,6 +24,19 @@ namespace DSA.Interview
         {
             Console.WriteLine("Checking if the string is a palindrome: " + input);
         }
+        public virtual void RemoveDuplicatesFromArray(int[] numbers)
+        {
+            Console.WriteLine("Removing duplicates from the array: " + string.Join(", ", numbers));
+        }
+        public virtual void FindFrequentCharacter(string input)
+        {
+            Console.WriteLine("Finding the most frequent character in the string: " + input);
+        }
+        //Sorting Algorithms & Searching Algorithms
+        public void BubbleSort(int[] numbers) { }
+        public void SelectionSort(int[] numbers) { }
+        public void BinarySearch(int[] numbers, int target) { }
+
     }
     internal interface IInterviewQuestions
     {
@@ -31,6 +44,13 @@ namespace DSA.Interview
         public void FindDuplicateCharacters(string input);
         public void LargestAndSmallestInArray(int[] numbers);
         public void StringPalindrome(string input);
+        public void RemoveDuplicatesFromArray(int[] numbers);
+        public void FindFrequentCharacter(string input);
+        //Sorting Algorithms & Searching Algorithms
+        public void BubbleSort(int[] numbers);
+        public void SelectionSort(int[] numbers);
+        public void BinarySearch(int[] numbers, int target) { }
 
     }
+
 }
