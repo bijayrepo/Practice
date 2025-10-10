@@ -36,6 +36,16 @@ namespace DSA.Interview
         public void BubbleSort(int[] numbers) { }
         public void SelectionSort(int[] numbers) { }
         public void BinarySearch(int[] numbers, int target) { }
+        public void DutchFlagSort(int[] numbers) { }
+        //Mathmatical &  Logical Problems
+        private void CheckPrime(int number) { }
+        private void FindFactorial(int number) { }
+        private void CheckAmstrong(int number) { }
+        private void SumofDigits(int number) { }
+        //Recussion Problems
+        protected void Fibonacci(int n) { }
+        protected void Factorial(int n) { }
+        protected void TowerOfHanoi(int n, char source, char destination, char auxiliary) { }
 
     }
     internal interface IInterviewQuestions
@@ -50,6 +60,16 @@ namespace DSA.Interview
         public void BubbleSort(int[] numbers);
         public void SelectionSort(int[] numbers);
         public void BinarySearch(int[] numbers, int target) { }
+        public void DutchFlagSort(int[] numbers) { }
+        //Mathmatical &  Logical Problems
+        private void CheckPrime(int number) { }
+        private void FindFactorial(int number) { }
+        private void CheckAmstrong(int number) { }
+        private void SumofDigits(int number) { }
+        //Recussion Problems
+        protected void Fibonacci(int n) { }
+        protected void Factorial(int n) { }
+        protected void TowerOfHanoi(int n, char source, char destination, char auxiliary) { }
 
     }
 

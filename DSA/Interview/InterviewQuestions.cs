@@ -181,6 +181,157 @@ namespace DSA.Interview
             }
             Console.WriteLine($"Element {target} not found in the array.");
         }
+        public void DutchFlagSort(int[] arr)
+        {
+            int low = 0, mid = 0, high = arr.Length - 1;
+
+            while (mid <= high)
+            {
+                if (arr[mid] == 0)
+                {
+                    Swap(arr, low, mid);
+                    low++;
+                    mid++;
+                }
+                else if (arr[mid] == 1)
+                {
+                    mid++;
+                }
+                else
+                { // arr[mid] == 2
+                    Swap(arr, mid, high);
+                    high--;
+                }
+            }
+
+        }
+        private static void Swap(int[] arr, int i, int j)
+        {
+            int temp = arr[i];
+            arr[i] = arr[j];
+            arr[j] = temp;
+        }
+
+        //Mathmatical &  Logical Problems
+        private void CheckPrime(int number)
+        {
+            if (number <= 1)
+            {
+                Console.WriteLine($"{number} is not a prime number.");
+                return;
+            }
+            for (int i = 2; i <= Math.Sqrt(number); i++)
+            {
+                if (number % i == 0)
+                {
+                    Console.WriteLine($"{number} is not a prime number.");
+                    return;
+                }
+            }
+            Console.WriteLine($"{number} is a prime number.");
+        }
+        private void FindFactorial(int number)
+        {
+            if (number < 0)
+            {
+                Console.WriteLine("Factorial is not defined for negative numbers.");
+                return;
+            }
+            long factorial = 1;
+            for (int i = 2; i <= number; i++)
+            {
+                factorial *= i;
+            }
+            Console.WriteLine($"Factorial of {number} is {factorial}.");
+        }
+        private void CheckAmstrong(int number)
+        {
+            int originalNumber = number;
+            int sum = 0;
+            int digits = number.ToString().Length;
+            while (number > 0)
+            {
+                int digit = number % 10;
+                sum += (int)Math.Pow(digit, digits);
+                number /= 10;
+            }
+            if (sum == originalNumber)
+            {
+                Console.WriteLine($"{originalNumber} is an Armstrong number.");
+            }
+            else
+            {
+                Console.WriteLine($"{originalNumber} is not an Armstrong number.");
+            }
+        }
+        private void SumofDigits(int number)
+        {
+            int sum = 0;
+            while (number != 0)
+            {
+                sum += number % 10;
+                number /= 10;
+            }
+            Console.WriteLine("Sum of digits: " + sum);
+        }
+        //Recussion Problems
+        protected void Fibonacci(int n)
+        {
+            int result = FibonacciReturn(n);
+            Console.WriteLine($"Fibonacci number at position {n} is {result}");
+        }
+        protected int FibonacciReturn(int n)
+        {
+            if (n <= 0)
+            {
+                Console.WriteLine("Input should be a positive integer.");
+                return 0;
+            }
+            else if (n == 1)
+            {
+                return 0;
+            }
+            else if (n == 2)
+            {
+                return 1;
+            }
+            else
+            {
+                return FibonacciReturn(n - 1) + FibonacciReturn(n - 2);
+            }
+        }
+        protected void Factorial(int n)
+        {
+            int result = FactorialReturn(n);
+            Console.WriteLine($"Factorial of {n} is {result}");
+        }
+        protected int FactorialReturn(int n)
+        {
+            if (n < 0)
+            {
+                Console.WriteLine("Factorial is not defined for negative numbers.");
+                return 1;
+            }
+            else if (n == 0 || n == 1)
+            {
+                return 1;
+            }
+            else
+            {
+                return n * FactorialReturn(n - 1);
+            }
+        }
+        protected void TowerOfHanoi(int n, char source, char destination, char auxiliary)
+        {
+            if (n == 1)
+            {
+                Console.WriteLine($"Move disk 1 from rod {source} to rod {destination}");
+                return;
+            }
+            TowerOfHanoi(n - 1, source, auxiliary, destination);
+            Console.WriteLine($"Move disk {n} from rod {source} to rod {destination}");
+            TowerOfHanoi(n - 1, auxiliary, destination, source);
+        }
         public static void Run()
         {
             InterviewQuestions iq = new InterviewQuestions();
@@ -194,6 +345,16 @@ namespace DSA.Interview
             iq.BubbleSort(new int[] { 64, 34, 25, 12, 22, 11, 90 });
             iq.SelectionSort(new int[] { 64, 25, 12, 22, 11 });
             iq.BinarySearch(new int[] { 11, 12, 22, 25, 34, 64, 90 }, 25);
+            iq.DutchFlagSort(new int[] { 2, 0, 1, 2, 1, 0 });
+            //Mathmatical &  Logical Problems
+            iq.CheckPrime(29);
+            iq.FindFactorial(5);
+            iq.CheckAmstrong(153);
+            iq.SumofDigits(12345);
+            //Recussion Problems
+            iq.Fibonacci(7);
+            iq.Factorial(5);
+            iq.TowerOfHanoi(3, 'A', 'C', 'B');
         }
     }
 }
