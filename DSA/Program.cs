@@ -20,7 +20,8 @@ namespace DSA
             //ReversingList.Run();
             //LinqQuery.Linq();
             //TimeComplexity.InsertionSort.Sort();
-            //InterviewQuestions.Run();
+            //InterviewQuestions
+            Interview.InterviewQuestions.Run();
             Console.WriteLine();
         }
     }

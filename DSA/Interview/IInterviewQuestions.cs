@@ -8,11 +8,11 @@ namespace DSA.Interview
 {
     public abstract class InterviewQuestionsBase: IInterviewQuestions
     {
-        public void ReverseString(string input)
+        public virtual void ReverseString(string input)
         {
             Console.WriteLine("Reversing the string: " + input);
         }
-        public void FindDuplicateCharacters(string input)
+        public virtual void FindDuplicateCharacters(string input)
         {
             Console.WriteLine("Finding duplicate characters in the string: " + input);
         }
