@@ -1,0 +1,78 @@
+﻿
+
+🔹 Array & String
+
+Reverse an array or string
+Find the largest/smallest element in an array
+Check if a string is a palindrome
+Remove duplicates from an array
+Find the frequency of characters in a string
+
+🔹 Sorting & Searching
+
+Implement Bubble Sort / Selection Sort
+Binary Search
+Sort an array of 0s, 1s, and 2s (Dutch National Flag problem)
+
+🔹 Mathematical & Logical
+
+Check if a number is prime
+Find factorial of a number
+Fibonacci series
+Armstrong number check
+Sum of digits of a number
+
+🔹 Recursion
+
+Factorial using recursion
+Fibonacci using recursion
+Tower of Hanoi
+
+🔹 Linked List
+
+Reverse a linked list
+Detect loop in a linked list
+Find middle element of a linked list
+
+🔹 Stack & Queue
+
+Implement stack using array
+Implement queue using two stacks
+Check balanced parentheses using stack
+
+🔹 Tree & Graph (Basic)
+
+Inorder, Preorder, Postorder traversal
+Find height of a binary tree
+Check if two trees are identical
+
+Reverse a Linked List
+Merge Intervals
+Implement Queue using Stacks
+Longest Common Subsequence
+Kadane’s Algorithm
+Binary Tree Inorder Traversal
+Two Sum
+Subarray Sum Equals K
+Search in Rotated Sorted Array
+Lowest Common Ancestor
+Group Anagrams
+Sliding Window Maximum
+Edit Distance
+Quick Sort
+Next Greater Element
+Top K Frequent Elements
+Palindrome Linked List
+Number of Islands
+House Robber
+Longest Increasing Subsequence
+Best Time to Buy and Sell Stock
+Clone Graph
+Course Schedule
+Median of Two Sorted Arrays
+Trapping Rain Water
+0/1 Knapsack Problem
+Serialize and Deserialize Binary Tree
+Find Peak Element
+Minimum Window Substring
+Validate Binary Search Tree

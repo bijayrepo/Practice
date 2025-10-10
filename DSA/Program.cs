@@ -19,7 +19,8 @@ namespace DSA
             //LinearSearch.Linear(5);
             //ReversingList.Run();
             //LinqQuery.Linq();
-            TimeComplexity.InsertionSort.Sort();
+            //TimeComplexity.InsertionSort.Sort();
+            //InterviewQuestions.Run();
             Console.WriteLine();
         }
     }
