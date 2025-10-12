@@ -1,6 +1,7 @@
 ﻿using DSA.Arrays;
 using DSA.LINQ;
 using DSA.List;
+using DSA.leetcode;
 
 namespace DSA
 {
@@ -21,7 +22,9 @@ namespace DSA
             //LinqQuery.Linq();
             //TimeComplexity.InsertionSort.Sort();
             //InterviewQuestions
-            Interview.InterviewQuestions.Run();
+            //Interview.InterviewQuestions.Run();
+            //Leetcode
+            RunMedium.Run();
             Console.WriteLine();
         }
     }
