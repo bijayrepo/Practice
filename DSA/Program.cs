@@ -20,7 +20,8 @@ namespace DSA
             //LinearSearch.Linear(5);
             //ReversingList.Run();
             //LinqQuery.Linq();
-            //TimeComplexity.InsertionSort.Sort();
+            //TimeComplexity
+            TimeComplexity.RunTimeComplexityMedium.Run();
             //InterviewQuestions
             //Interview.InterviewQuestions.Run();
             //Leetcode
