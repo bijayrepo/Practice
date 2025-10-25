@@ -9,6 +9,6 @@ namespace DSA.leetcode
     internal interface ILeadcode
     {
         public double FindMedianSortedArrays(int[] nums1, int[] nums2);
-        public string longestPalindrome(string s);
+        public string longestPalindrome(string str);
     }
 }

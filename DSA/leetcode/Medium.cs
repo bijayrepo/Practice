@@ -50,7 +50,7 @@ namespace DSA.leetcode
             int start = 0, maxLen = 1;
             for (int i = 0; i < s.Length; i++)
             {
-                // Odd-length palindrome
+                // Odd-length
                 int left = i, right = i;
                 while (left >= 0 && right < s.Length && s[left] == s[right])
                 {
@@ -62,7 +62,7 @@ namespace DSA.leetcode
                     left--; right++;
                 }
 
-                // Even-length palindrome
+                // Even-length
                 left = i; right = i + 1;
                 while (left >= 0 && right < s.Length && s[left] == s[right])
                 {
