@@ -10,7 +10,7 @@
 
 ###
 
-<p align="left">✨ Creating bugs since 199x...  <br>📚 I'm currently learning **advanced Data Structures & Algorithms in C#**  <br>🎯 Goals: Master problem-solving, contribute to open-source DSA projects, and improve coding efficiency  <br>🎲 Fun fact: I once tried sorting my bookshelf using QuickSort… it didn’t go as planned 😅</p>
+<p align="left">✨ Creating bugs since 2020x...  <br>📚 I'm currently learning **advanced Data Structures & Algorithms in C#**  <br>🎯 Goals: Master problem-solving, contribute to open-source DSA projects, and improve coding efficiency  <br>🎲 Fun fact: I once tried sorting my bookshelf using QuickSort… it didn’t go as planned 😅</p>
 
 ###
 
