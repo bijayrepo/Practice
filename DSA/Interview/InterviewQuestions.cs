@@ -330,34 +330,162 @@ namespace DSA.Interview
             Console.WriteLine($"Move disk {n} from rod {source} to rod {destination}");
             TowerOfHanoi(n - 1, auxiliary, destination, source);
         }
+        //Real Interview Questions
+        public int foodDistribution(int input1, int input2, int[,] input3)
+        {
+            if (input3 == null) return 0;
+
+            int rows = input1;
+            int cols = input2;
+
+            bool[,] visited = new bool[rows, cols];
+            int count = 0;
+
+            // Directions: Up, Down, Left, Right
+            int[] dr = { -1, 1, 0, 0 };
+            int[] dc = { 0, 0, -1, 1 };
+
+            for (int r = 0; r < rows; r++)
+            {
+                for (int c = 0; c < cols; c++)
+                {
+                    if (input3[r, c] == 0 && !visited[r, c])
+                    {
+                        count++;
+
+                        // Using Stack of Tuples
+                        Stack<Tuple<int, int>> stack = new Stack<Tuple<int, int>>();
+                        stack.Push(Tuple.Create(r, c));
+                        visited[r, c] = true;
+
+                        while (stack.Count > 0)
+                        {
+                            (int x, int y) = stack.Pop();
+
+                            for (int k = 0; k < 4; k++)
+                            {
+                                int nr = x + dr[k];
+                                int nc = y + dc[k];
+
+                                if (nr >= 0 && nr < rows && nc >= 0 && nc < cols)
+                                {
+                                    if (!visited[nr, nc] && input3[nr, nc] == 0)
+                                    {
+                                        visited[nr, nc] = true;
+                                        stack.Push(Tuple.Create(nr, nc));
+                                        
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+
+            return count;
+        }
+        public int leastMoves(int input1, int[] input2)
+        {
+            int N = input1;
+            int[] A = input2;
+
+            if (N == 1)
+            {
+                return 0;
+            }
+
+            int[] dp = new int[N + 1];
+            int[] min_moves_for_value = new int[10];
+
+            const int INF = 1000000;
+
+            // Initialize dp and helper arrays
+            for (int i = 0; i <= N; i++)
+            {
+                dp[i] = INF;
+            }
+
+            for (int i = 0; i < 10; i++)
+            {
+                min_moves_for_value[i] = INF;
+            }
+
+            dp[1] = 0;
+            min_moves_for_value[A[0]] = 0;
+
+            for (int i = 2; i <= N; i++)
+            {
+                int currentBrickValue = A[i - 1];
+
+                // Step forward move
+                dp[i] = dp[i - 1] + 1;
+
+                // Jump move if same value seen before
+                if (min_moves_for_value[currentBrickValue] != INF)
+                {
+                    int jumpMove = min_moves_for_value[currentBrickValue] + 1;
+                    if (jumpMove < dp[i])
+                    {
+                        dp[i] = jumpMove;
+                    }
+                }
+
+                // Update the min_moves_for_value table
+                if (dp[i] < min_moves_for_value[currentBrickValue])
+                {
+                    min_moves_for_value[currentBrickValue] = dp[i];
+                }
+            }
+
+            return dp[N];
+        }
+
         public static void Run()
         {
             InterviewQuestions iq = new InterviewQuestions();
-            iq.ReverseString("Bijay");
-            iq.FindDuplicateCharacters("Programming");
-            iq.LargestAndSmallestInArray(new int[]{ 34, -2, 45, 0, 11, -9, 78 });
-            iq.StringPalindrome("madam");
-            iq.RemoveDuplicatesFromArray(new int[] { 1, 2, 3, 2, 4, 1, 5, 3 });
-            iq.FindFrequentCharacter("hello world");
-            //Sorting Algorithms & Searching Algorithms
-            iq.BubbleSort(new int[] { 64, 34, 25, 12, 22, 11, 90 });
-            iq.SelectionSort(new int[] { 64, 25, 12, 22, 11 });
-            iq.BinarySearch(new int[] { 11, 12, 22, 25, 34, 64, 90 }, 25);
-            iq.DutchFlagSort(new int[] { 2, 0, 1, 2, 1, 0 });
-            //Mathmatical &  Logical Problems
-            iq.CheckPrime(29);
-            iq.FindFactorial(5);
-            iq.CheckAmstrong(153);
-            iq.SumofDigits(12345);
-            //Recussion Problems
-            iq.Fibonacci(7);
-            iq.Factorial(5);
-            iq.TowerOfHanoi(3, 'A', 'C', 'B');
-            //Linked List Problems
-            InterviewQuestionIntermediate iqi = new InterviewQuestionIntermediate();
-            iqi.ReverseLinkedList(new List<int> { 1, 2, 3, 4, 5 });
-            iqi.DetectCycleInLinkedList(new List<int> { 1, 2, 3, 4, 5 });
-            iqi.FindMiddleOfLinkedList(new List<int> { 1, 2, 3, 4, 5 });
+            //iq.ReverseString("Bijay");
+            //iq.FindDuplicateCharacters("Programming");
+            //iq.LargestAndSmallestInArray(new int[]{ 34, -2, 45, 0, 11, -9, 78 });
+            //iq.StringPalindrome("madam");
+            //iq.RemoveDuplicatesFromArray(new int[] { 1, 2, 3, 2, 4, 1, 5, 3 });
+            //iq.FindFrequentCharacter("hello world");
+            ////Sorting Algorithms & Searching Algorithms
+            //iq.BubbleSort(new int[] { 64, 34, 25, 12, 22, 11, 90 });
+            //iq.SelectionSort(new int[] { 64, 25, 12, 22, 11 });
+            //iq.BinarySearch(new int[] { 11, 12, 22, 25, 34, 64, 90 }, 25);
+            //iq.DutchFlagSort(new int[] { 2, 0, 1, 2, 1, 0 });
+            ////Mathmatical &  Logical Problems
+            //iq.CheckPrime(29);
+            //iq.FindFactorial(5);
+            //iq.CheckAmstrong(153);
+            //iq.SumofDigits(12345);
+            ////Recussion Problems
+            //iq.Fibonacci(7);
+            //iq.Factorial(5);
+            //iq.TowerOfHanoi(3, 'A', 'C', 'B');
+            ////Linked List Problems
+            //InterviewQuestionIntermediate iqi = new InterviewQuestionIntermediate();
+            //iqi.ReverseLinkedList(new List<int> { 1, 2, 3, 4, 5 });
+            //iqi.DetectCycleInLinkedList(new List<int> { 1, 2, 3, 4, 5 });
+            //iqi.FindMiddleOfLinkedList(new List<int> { 1, 2, 3, 4, 5 });
+            //Real Interview Questions
+            int[,] grid = new int[,] { { 0, 0, 1, 0 }, { 0, 1, 0, 0 }, { 1, 0, 0, 1 }, { 0, 0, 1, 0 } };
+            int res = iq.foodDistribution(4, 4, grid);
+            Console.WriteLine("Number of food distributions needed: " + res);
+            grid = new int[,] {
+                                      {0,1,1,1,1},
+                                      {0,0,1,0,1},
+                                      {1,1,0,1,1},
+                                      {1,0,1,0,1},
+                                      {0,1,1,0,1}
+                                    };
+
+            res = iq.foodDistribution(5, 5, grid);
+            Console.WriteLine($"Number of food distributions needed: {res}");
+
+            int input1 = 5;
+            int[] input2 = { 1, 2, 3, 4, 5 };
+            Console.WriteLine("Least moves to reach the end: " + iq.leastMoves(input1, input2));
         }
     }
     internal class InterviewQuestionIntermediate: InterviewQuestionsBase

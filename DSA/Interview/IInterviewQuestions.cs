@@ -50,7 +50,11 @@ namespace DSA.Interview
         internal void ReverseLinkedList(List<int> list) { }
         internal void DetectCycleInLinkedList(List<int> list) { }
         internal void FindMiddleOfLinkedList(List<int> list) { }
+        //Real Interview Questions
+        public int foodDistribution(int input1, int input2, int[,] input3) { return 0; }
+        public int leastMoves(int input1, int[] input2) { return 0; }
     }
+
     internal interface IInterviewQuestions
     {
         public void ReverseString(string input);
@@ -77,6 +81,9 @@ namespace DSA.Interview
         internal void ReverseLinkedList(List<int> list) { }   
         internal void DetectCycleInLinkedList(List<int> list) { }
         internal void FindMiddleOfLinkedList(List<int> list) { }
+        //Real Interview Questions
+        public int foodDistribution(int input1, int input2, int[,] input3);
+        public int leastMoves(int input1, int[] input2);
     }
 
 }
