@@ -12,3 +12,18 @@ C:\Project\Practice\DSA\obj\Debug\net9.0\refint\DSA.dll
 C:\Project\Practice\DSA\obj\Debug\net9.0\DSA.pdb
 C:\Project\Practice\DSA\obj\Debug\net9.0\DSA.genruntimeconfig.cache
 C:\Project\Practice\DSA\obj\Debug\net9.0\ref\DSA.dll
+F:\Live Projects\Practice\Practice\DSA\obj\Debug\net9.0\DSA.GeneratedMSBuildEditorConfig.editorconfig
+F:\Live Projects\Practice\Practice\DSA\obj\Debug\net9.0\DSA.AssemblyInfoInputs.cache
+F:\Live Projects\Practice\Practice\DSA\obj\Debug\net9.0\DSA.AssemblyInfo.cs
+F:\Live Projects\Practice\Practice\DSA\obj\Debug\net9.0\DSA.csproj.CoreCompileInputs.cache
+F:\Live Projects\Practice\Practice\DSA\obj\Debug\net9.0\DSA.sourcelink.json
+F:\Live Projects\Practice\Practice\DSA\bin\Debug\net9.0\DSA.exe
+F:\Live Projects\Practice\Practice\DSA\bin\Debug\net9.0\DSA.deps.json
+F:\Live Projects\Practice\Practice\DSA\bin\Debug\net9.0\DSA.runtimeconfig.json
+F:\Live Projects\Practice\Practice\DSA\bin\Debug\net9.0\DSA.dll
+F:\Live Projects\Practice\Practice\DSA\bin\Debug\net9.0\DSA.pdb
+F:\Live Projects\Practice\Practice\DSA\obj\Debug\net9.0\DSA.dll
+F:\Live Projects\Practice\Practice\DSA\obj\Debug\net9.0\refint\DSA.dll
+F:\Live Projects\Practice\Practice\DSA\obj\Debug\net9.0\DSA.pdb
+F:\Live Projects\Practice\Practice\DSA\obj\Debug\net9.0\DSA.genruntimeconfig.cache
+F:\Live Projects\Practice\Practice\DSA\obj\Debug\net9.0\ref\DSA.dll

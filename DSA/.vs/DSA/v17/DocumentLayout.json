@@ -1,26 +1,22 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Project\\Practice\\DSA\\",
+  "WorkspaceRootPath": "F:\\Live Projects\\Practice\\Practice\\DSA\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{916D1082-CB5F-48DB-9E8E-9E629926BD27}|DSA.csproj|c:\\project\\practice\\dsa\\fibonacci\\iteractiveapproach.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{916D1082-CB5F-48DB-9E8E-9E629926BD27}|DSA.csproj|solutionrelative:fibonacci\\iteractiveapproach.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{916D1082-CB5F-48DB-9E8E-9E629926BD27}|DSA.csproj|f:\\live projects\\practice\\practice\\dsa\\interview\\interviewquestions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{916D1082-CB5F-48DB-9E8E-9E629926BD27}|DSA.csproj|solutionrelative:interview\\interviewquestions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{916D1082-CB5F-48DB-9E8E-9E629926BD27}|DSA.csproj|c:\\project\\practice\\dsa\\fibonacci\\dynamicprogramming.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{916D1082-CB5F-48DB-9E8E-9E629926BD27}|DSA.csproj|solutionrelative:fibonacci\\dynamicprogramming.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{916D1082-CB5F-48DB-9E8E-9E629926BD27}|DSA.csproj|f:\\live projects\\practice\\practice\\dsa\\interview\\iinterviewquestions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{916D1082-CB5F-48DB-9E8E-9E629926BD27}|DSA.csproj|solutionrelative:interview\\iinterviewquestions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{916D1082-CB5F-48DB-9E8E-9E629926BD27}|DSA.csproj|c:\\project\\practice\\dsa\\fibonacci\\recursiveapproach.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{916D1082-CB5F-48DB-9E8E-9E629926BD27}|DSA.csproj|solutionrelative:fibonacci\\recursiveapproach.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{916D1082-CB5F-48DB-9E8E-9E629926BD27}|DSA.csproj|c:\\project\\practice\\dsa\\fibonacci\\uninglinq.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{916D1082-CB5F-48DB-9E8E-9E629926BD27}|DSA.csproj|solutionrelative:fibonacci\\uninglinq.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{916D1082-CB5F-48DB-9E8E-9E629926BD27}|DSA.csproj|c:\\project\\practice\\dsa\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{916D1082-CB5F-48DB-9E8E-9E629926BD27}|DSA.csproj|f:\\live projects\\practice\\practice\\dsa\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{916D1082-CB5F-48DB-9E8E-9E629926BD27}|DSA.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{916D1082-CB5F-48DB-9E8E-9E629926BD27}|DSA.csproj|f:\\live projects\\practice\\practice\\dsa\\interview\\listofquestions.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{916D1082-CB5F-48DB-9E8E-9E629926BD27}|DSA.csproj|solutionrelative:interview\\listofquestions.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,69 +26,58 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "UningLINQ.cs",
-              "DocumentMoniker": "C:\\Project\\Practice\\DSA\\Fibonacci\\UningLINQ.cs",
-              "RelativeDocumentMoniker": "Fibonacci\\UningLINQ.cs",
-              "ToolTip": "C:\\Project\\Practice\\DSA\\Fibonacci\\UningLINQ.cs",
-              "RelativeToolTip": "Fibonacci\\UningLINQ.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwBAAAAAdAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-03T04:32:03.536Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "DynamicProgramming.cs",
-              "DocumentMoniker": "C:\\Project\\Practice\\DSA\\Fibonacci\\DynamicProgramming.cs",
-              "RelativeDocumentMoniker": "Fibonacci\\DynamicProgramming.cs",
-              "ToolTip": "C:\\Project\\Practice\\DSA\\Fibonacci\\DynamicProgramming.cs",
-              "RelativeToolTip": "Fibonacci\\DynamicProgramming.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwB0AAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-03T04:29:27.081Z",
+              "Title": "ListOfQuestions.txt",
+              "DocumentMoniker": "F:\\Live Projects\\Practice\\Practice\\DSA\\Interview\\ListOfQuestions.txt",
+              "RelativeDocumentMoniker": "Interview\\ListOfQuestions.txt",
+              "ToolTip": "F:\\Live Projects\\Practice\\Practice\\DSA\\Interview\\ListOfQuestions.txt",
+              "RelativeToolTip": "Interview\\ListOfQuestions.txt",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2025-10-28T12:50:35.751Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Project\\Practice\\DSA\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Project\\Practice\\DSA\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAfAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "InterviewQuestions.cs",
+              "DocumentMoniker": "F:\\Live Projects\\Practice\\Practice\\DSA\\Interview\\InterviewQuestions.cs",
+              "RelativeDocumentMoniker": "Interview\\InterviewQuestions.cs",
+              "ToolTip": "F:\\Live Projects\\Practice\\Practice\\DSA\\Interview\\InterviewQuestions.cs",
+              "RelativeToolTip": "Interview\\InterviewQuestions.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABIAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-03T03:36:22.483Z"
+              "WhenOpened": "2025-10-28T12:44:17.429Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "IteractiveApproach.cs",
-              "DocumentMoniker": "C:\\Project\\Practice\\DSA\\Fibonacci\\IteractiveApproach.cs",
-              "RelativeDocumentMoniker": "Fibonacci\\IteractiveApproach.cs",
-              "ToolTip": "C:\\Project\\Practice\\DSA\\Fibonacci\\IteractiveApproach.cs",
-              "RelativeToolTip": "Fibonacci\\IteractiveApproach.cs",
-              "ViewState": "AgIAAAgAAAAYAAAAAEAxwCAAAAAJAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "IInterviewQuestions.cs",
+              "DocumentMoniker": "F:\\Live Projects\\Practice\\Practice\\DSA\\Interview\\IInterviewQuestions.cs",
+              "RelativeDocumentMoniker": "Interview\\IInterviewQuestions.cs",
+              "ToolTip": "F:\\Live Projects\\Practice\\Practice\\DSA\\Interview\\IInterviewQuestions.cs",
+              "RelativeToolTip": "Interview\\IInterviewQuestions.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-03T04:26:44.724Z",
+              "WhenOpened": "2025-10-28T12:44:15.809Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "RecursiveApproach.cs",
-              "DocumentMoniker": "C:\\Project\\Practice\\DSA\\Fibonacci\\RecursiveApproach.cs",
-              "RelativeDocumentMoniker": "Fibonacci\\RecursiveApproach.cs",
-              "ToolTip": "C:\\Project\\Practice\\DSA\\Fibonacci\\RecursiveApproach.cs",
-              "RelativeToolTip": "Fibonacci\\RecursiveApproach.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwBkAAAAMAAAAAAAAAA==",
+              "Title": "Program.cs",
+              "DocumentMoniker": "F:\\Live Projects\\Practice\\Practice\\DSA\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "F:\\Live Projects\\Practice\\Practice\\DSA\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABkAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-03T04:19:39.708Z",
+              "WhenOpened": "2025-10-19T16:49:33.108Z",
               "EditorCaption": ""
             }
           ]

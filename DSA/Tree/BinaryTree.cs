@@ -58,7 +58,7 @@ namespace DSA.Tree
             Console.Write(node.Data + " ");
         }
 
-        static void Main()
+        static void ChildMain()
         {
             BinaryTree tree = new BinaryTree();
 

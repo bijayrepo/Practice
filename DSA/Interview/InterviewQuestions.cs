@@ -10,15 +10,21 @@ namespace DSA.Interview
     {
         public override void ReverseString(string input)
         {
-            char[] charArray = input.ToCharArray();
+            //char[] charArray = input.ToCharArray();
             //Array.Reverse(charArray);
-            for (int i = 0, j = charArray.Length - 1; i < j; i++, j--)
+            //for (int i = 0, j = charArray.Length - 1; i < j; i++, j--)
+            //{
+            //    char temp = charArray[i];
+            //    charArray[i] = charArray[j];
+            //    charArray[j] = temp;
+            //}
+            //string reversedString = new string(charArray);
+            string reversedString = string.Empty;
+            int strlen = input.Length;
+            for (int i = strlen - 1; i >= 0; i--)
             {
-                char temp = charArray[i];
-                charArray[i] = charArray[j];
-                charArray[j] = temp;
+                reversedString += input[i];
             }
-            string reversedString = new string(charArray);
             Console.WriteLine("Reversed string: " + reversedString);
         }
         public override void FindDuplicateCharacters(string input)
@@ -67,10 +73,10 @@ namespace DSA.Interview
         public override void StringPalindrome(string input)
         {
             char[] charArray = input.ToCharArray();
-            int left = 0,right=input.Length-1;
-            while(left<right)
+            int left = 0, right = input.Length - 1;
+            while (left < right)
             {
-                if(charArray[left]!=charArray[right])
+                if (charArray[left] != charArray[right])
                 {
                     Console.WriteLine($"The string '{input}' is not a palindrome.");
                     return;
@@ -92,13 +98,13 @@ namespace DSA.Interview
             int[] result = { };
             foreach (int num in numbers)
             {
-               if(!result.Contains(num))
+                if (!result.Contains(num))
                 {
                     Array.Resize(ref result, result.Length + 1);
                     result[result.Length - 1] = num;
                 }
             }
-            Console.WriteLine("Original array: " + string.Join(", ", numbers)+"Array after removing duplicates: " + string.Join(", ", result));
+            Console.WriteLine("Original array: " + string.Join(", ", numbers) + "Array after removing duplicates: " + string.Join(", ", result));
         }
         public override void FindFrequentCharacter(string input)
         {
@@ -116,7 +122,7 @@ namespace DSA.Interview
                 }
             }
             char mostFrequentChar = characterCount.OrderByDescending(kvp => kvp.Value).First().Key;
-            Console.WriteLine("Orginal String:"+input+"Most Frequent Character : "+ mostFrequentChar);
+            Console.WriteLine("Orginal String:" + input + "Most Frequent Character : " + mostFrequentChar);
         }
         //Sorting Algorithms & Searching Algorithms
         public void BubbleSort(int[] numbers)
@@ -373,7 +379,7 @@ namespace DSA.Interview
                                     {
                                         visited[nr, nc] = true;
                                         stack.Push(Tuple.Create(nr, nc));
-                                        
+
                                     }
                                 }
                             }
@@ -443,7 +449,7 @@ namespace DSA.Interview
         public static void Run()
         {
             InterviewQuestions iq = new InterviewQuestions();
-            //iq.ReverseString("Bijay");
+            iq.ReverseString("ABC");
             //iq.FindDuplicateCharacters("Programming");
             //iq.LargestAndSmallestInArray(new int[]{ 34, -2, 45, 0, 11, -9, 78 });
             //iq.StringPalindrome("madam");
@@ -469,28 +475,28 @@ namespace DSA.Interview
             //iqi.DetectCycleInLinkedList(new List<int> { 1, 2, 3, 4, 5 });
             //iqi.FindMiddleOfLinkedList(new List<int> { 1, 2, 3, 4, 5 });
             //Real Interview Questions
-            int[,] grid = new int[,] { { 0, 0, 1, 0 }, { 0, 1, 0, 0 }, { 1, 0, 0, 1 }, { 0, 0, 1, 0 } };
-            int res = iq.foodDistribution(4, 4, grid);
-            Console.WriteLine("Number of food distributions needed: " + res);
-            grid = new int[,] {
-                                      {0,1,1,1,1},
-                                      {0,0,1,0,1},
-                                      {1,1,0,1,1},
-                                      {1,0,1,0,1},
-                                      {0,1,1,0,1}
-                                    };
+            //int[,] grid = new int[,] { { 0, 0, 1, 0 }, { 0, 1, 0, 0 }, { 1, 0, 0, 1 }, { 0, 0, 1, 0 } };
+            //int res = iq.foodDistribution(4, 4, grid);
+            //Console.WriteLine("Number of food distributions needed: " + res);
+            //grid = new int[,] {
+            //                          {0,1,1,1,1},
+            //                          {0,0,1,0,1},
+            //                          {1,1,0,1,1},
+            //                          {1,0,1,0,1},
+            //                          {0,1,1,0,1}
+            //                        };
 
-            res = iq.foodDistribution(5, 5, grid);
-            Console.WriteLine($"Number of food distributions needed: {res}");
+            //res = iq.foodDistribution(5, 5, grid);
+            //Console.WriteLine($"Number of food distributions needed: {res}");
 
-            int input1 = 5;
-            int[] input2 = { 1, 2, 3, 4, 5 };
-            Console.WriteLine("Least moves to reach the end: " + iq.leastMoves(input1, input2));
+            //int input1 = 5;
+            //int[] input2 = { 1, 2, 3, 4, 5 };
+            //Console.WriteLine("Least moves to reach the end: " + iq.leastMoves(input1, input2));
         }
     }
-    internal class InterviewQuestionIntermediate: InterviewQuestionsBase
+    internal class InterviewQuestionIntermediate : InterviewQuestionsBase
     {
-        internal void ReverseLinkedList(List<int>list)
+        internal void ReverseLinkedList(List<int> list)
         {
             Console.WriteLine("Original Linked List: " + string.Join("->", list));
             list.Reverse();
