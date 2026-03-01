@@ -10,10 +10,12 @@ namespace DSA.TimeComplexity
     {
         public void CountingSort();
         public void InsertionSort();
+        public void BubbleSort();
     }
     public abstract class RunTimeComplexity: ITimeComplexity
     {
         public void CountingSort() { }
         public void InsertionSort() { }
+        public void BubbleSort() { }
     }
 }

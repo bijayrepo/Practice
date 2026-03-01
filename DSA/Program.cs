@@ -21,9 +21,9 @@ namespace DSA
             //ReversingList.Run();
             //LinqQuery.Linq();
             //TimeComplexity
-            //TimeComplexity.RunTimeComplexityMedium.Run();
+            TimeComplexity.RunTimeComplexityMedium.Run();
             //InterviewQuestions
-            Interview.InterviewQuestions.Run();
+            //Interview.InterviewQuestions.Run();
             //Leetcode
             //RunMedium.Run();
             Console.WriteLine();
