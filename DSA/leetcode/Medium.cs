@@ -1,4 +1,5 @@
-﻿using System;
+﻿using DSA.leetcode.Array;
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
@@ -84,8 +85,14 @@ namespace DSA.leetcode
         public static void Run()
         {
             Medium medium = new Medium();
+            Array_LeadCode array_LeadCode = new Array_LeadCode();
             int[] nums1 = { 1, 3 };
             int[] nums2 = { 2 };
+            int[] nums3 = { 0, 0, 1, 1, 1, 2, 2, 3, 3, 4 };
+            int[] num4 = { 0, 1, 2, 2, 3, 0, 4, 2 };
+           int num = array_LeadCode.SearchInsert(nums3, 5);
+            int res = array_LeadCode.removeDuplicates(nums3);
+            int res2 = array_LeadCode.RemoveElement(num4, 2);
             double result = medium.FindMedianSortedArrays(nums1, nums2);
             Console.WriteLine("Median of the two sorted arrays is: " + result);
             string longestPalindrome= medium.longestPalindrome("babad");
