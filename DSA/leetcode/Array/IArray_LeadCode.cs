@@ -11,5 +11,6 @@ namespace DSA.leetcode.Array
         public int removeDuplicates(int[] nums);
         public int RemoveElement(int[] nums, int val);
         public int SearchInsert(int[] nums, int target);
+        public int[] plusOne(int[] digits);
     }
 }
