@@ -1,9 +1,11 @@
-﻿using DSA.leetcode.Array;
+﻿using DSA.leetcode.Algorithms;
+using DSA.leetcode.Array;
 using DSA.leetcode.String;
 using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
+using System.Numerics;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -89,6 +91,7 @@ namespace DSA.leetcode
             Medium medium = new Medium();
             Array_LeadCode array_LeadCode = new Array_LeadCode();
             String_LeadCode string_LeadCode = new String_LeadCode();
+            Algorithims_leedcode algorithms = new Algorithims_leedcode();
             //Input Arrays
             int[] nums1 = { 1, 3 };
             int[] nums2 = { 3,9 };
@@ -96,6 +99,7 @@ namespace DSA.leetcode
             int[] num4 = { 0, 1, 2, 2, 3, 0, 4, 2 };
             //Input Strings
             string str1 = "42";
+            int x = 121;
             //Method Calls
             int num = array_LeadCode.SearchInsert(nums3, 5);
             int res = array_LeadCode.removeDuplicates(nums3);
@@ -103,6 +107,7 @@ namespace DSA.leetcode
             double result = medium.FindMedianSortedArrays(nums1, nums2);
             num4 = array_LeadCode.plusOne(nums2);
             int res3 = string_LeadCode.MyAtoi(str1);
+            bool isPalindrome = algorithms.IsPalindrome(x);
             Console.WriteLine("Median of the two sorted arrays is: " + result);
             string longestPalindrome= medium.longestPalindrome("babad");
             Console.WriteLine("Longest Palindromic Substring is: " + longestPalindrome);
