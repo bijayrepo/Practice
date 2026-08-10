@@ -9,5 +9,6 @@ namespace DSA.leetcode.Algorithms
     internal interface IAlgorithms_leedcode
     {
         public bool IsPalindrome(int x);
+        public bool IsValid(string s);
     }
 }

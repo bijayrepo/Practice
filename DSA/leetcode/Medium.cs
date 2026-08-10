@@ -108,6 +108,7 @@ namespace DSA.leetcode
             num4 = array_LeadCode.plusOne(nums2);
             int res3 = string_LeadCode.MyAtoi(str1);
             bool isPalindrome = algorithms.IsPalindrome(x);
+            isPalindrome=algorithms.IsValid("()[]{}");
             Console.WriteLine("Median of the two sorted arrays is: " + result);
             string longestPalindrome= medium.longestPalindrome("babad");
             Console.WriteLine("Longest Palindromic Substring is: " + longestPalindrome);
