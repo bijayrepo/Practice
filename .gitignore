@@ -1,3 +1,45 @@
+# C# / Visual Studio
 DSA/.vs
 DSA/bin
 DSA/obj
+*.csproj.user
+*.sln.DotSettings.user
+*.resharper
+*.resharper.user
+*.ncrunchproject
+*.ncrunch_v2
+.vs/
+bin/
+obj/
+*.dll
+*.exe
+*.pdb
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# OS
+.DS_Store
+Thumbs.db
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+
+# Dependencies
+packages/
+node_modules/
+
+# Build artifacts
+*.log
+*.tmp
