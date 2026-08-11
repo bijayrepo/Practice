@@ -1,5 +1,6 @@
 ﻿using DSA.leetcode.Algorithms;
 using DSA.leetcode.Array;
+using DSA.leetcode.List;
 using DSA.leetcode.String;
 using System;
 using System.Collections;
@@ -83,8 +84,13 @@ namespace DSA.leetcode
         }
      
     }
-    public static class RunMedium
+    public  class RunMedium
     {
+        //public  IList_leadcode list_Leadcode;
+        //public  RunMedium(IList_leadcode _list_Leadcode)
+        //{
+        //    list_Leadcode = _list_Leadcode;
+        //}
         public static void Run()
         {
             //Object Creation
@@ -92,6 +98,7 @@ namespace DSA.leetcode
             Array_LeadCode array_LeadCode = new Array_LeadCode();
             String_LeadCode string_LeadCode = new String_LeadCode();
             Algorithims_leedcode algorithms = new Algorithims_leedcode();
+            List_Leadcode list_Leadcode = new List_Leadcode();
             //Input Arrays
             int[] nums1 = { 1, 3 };
             int[] nums2 = { 3,9 };
@@ -112,6 +119,8 @@ namespace DSA.leetcode
             Console.WriteLine("Median of the two sorted arrays is: " + result);
             string longestPalindrome= medium.longestPalindrome("babad");
             Console.WriteLine("Longest Palindromic Substring is: " + longestPalindrome);
+            // Merge two sorted linked lists
+            list_Leadcode.MergeTwoLists(new ListNode(1, new ListNode(2, new ListNode(4))), new ListNode(1, new ListNode(3, new ListNode(4))));
         }
     }
 }
