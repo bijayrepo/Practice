@@ -9,5 +9,6 @@ namespace DSA.leetcode.String
     internal interface IString_LeadCode
     {
         public int MyAtoi(string s);
+        public int RomanToInt(string s);
     }
 }

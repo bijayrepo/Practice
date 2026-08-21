@@ -27,3 +27,6 @@ F:\Live Projects\Practice\Practice\DSA\obj\Debug\net9.0\refint\DSA.dll
 F:\Live Projects\Practice\Practice\DSA\obj\Debug\net9.0\DSA.pdb
 F:\Live Projects\Practice\Practice\DSA\obj\Debug\net9.0\DSA.genruntimeconfig.cache
 F:\Live Projects\Practice\Practice\DSA\obj\Debug\net9.0\ref\DSA.dll
+C:\Project\DSA\Practice\DSA\obj\Debug\net9.0\DSA.dll
+C:\Project\DSA\Practice\DSA\obj\Debug\net9.0\refint\DSA.dll
+C:\Project\DSA\Practice\DSA\obj\Debug\net9.0\DSA.pdb

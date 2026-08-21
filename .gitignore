@@ -1,45 +1,66 @@
-# C# / Visual Studio
-DSA/.vs
-DSA/bin
-DSA/obj
+# .NET / Visual Studio
+.vs/
+bin/
+obj/
+TestResults/
+*.user
+*.suo
 *.csproj.user
 *.sln.DotSettings.user
+*.dll
+*.exe
+*.pdb
+*.nupkg
+*.snupkg
+
+# Code coverage and analyzers
+coverage/
+*.coverage
+*.coveragexml
+*.trx
+*.sarif
+
+# C# tooling
 *.resharper
 *.resharper.user
 *.ncrunchproject
 *.ncrunch_v2
-.vs/
-bin/
-obj/
-*.dll
-*.exe
-*.pdb
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+.venv/
+venv/
+env/
+ENV/
+*.egg-info/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDEs and editors
 .vscode/
 .idea/
 *.swp
 *.swo
 
-# Jupyter Notebook
-.ipynb_checkpoints/
-*.ipynb_checkpoints
-__pycache__/
-*.py[cod]
-*$py.class
-*.so
-
-# OS
-.DS_Store
-Thumbs.db
-.DS_Store?
-._*
-.Spotlight-V100
-.Trashes
-ehthumbs.db
-
 # Dependencies
 packages/
 node_modules/
 
-# Build artifacts
+# Logs and temporary files
 *.log
 *.tmp
+
+# OS
+.DS_Store
+Thumbs.db
+ehthumbs.db
+._*
+.Spotlight-V100
+.Trashes
