@@ -11,5 +11,6 @@ namespace DSA.leetcode.String
         public int MyAtoi(string s);
         public int RomanToInt(string s);
         public string IntToRoman(int num);
+        public int LengthOfLastWord(string s);
     }
 }
