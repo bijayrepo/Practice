@@ -10,5 +10,6 @@ namespace DSA.leetcode.String
     {
         public int MyAtoi(string s);
         public int RomanToInt(string s);
+        public string IntToRoman(int num);
     }
 }

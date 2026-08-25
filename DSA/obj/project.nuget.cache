@@ -1,53 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "XcZWAi41yVY=",
-  "success": false,
+  "dgSpecHash": "OxTooNPONPU=",
+  "success": true,
   "projectFilePath": "C:\\Project\\DSA\\Practice\\DSA\\DSA.csproj",
   "expectedPackageFiles": [],
-  "logs": [
-    {
-      "code": "NU1100",
-      "level": "Error",
-      "message": "Unable to resolve 'Microsoft.WindowsDesktop.App.Ref (= 9.0.19)' for 'net9.0'. PackageSourceMapping is enabled, the following source(s) were not considered: Microsoft Visual Studio Offline Packages, nuget.org.",
-      "projectPath": "C:\\Project\\DSA\\Practice\\DSA\\DSA.csproj",
-      "filePath": "C:\\Project\\DSA\\Practice\\DSA\\DSA.csproj",
-      "libraryId": "Microsoft.WindowsDesktop.App.Ref",
-      "targetGraphs": [
-        "net9.0"
-      ]
-    },
-    {
-      "code": "NU1100",
-      "level": "Error",
-      "message": "Unable to resolve 'Microsoft.NETCore.App.Ref (= 9.0.19)' for 'net9.0'. PackageSourceMapping is enabled, the following source(s) were not considered: Microsoft Visual Studio Offline Packages, nuget.org.",
-      "projectPath": "C:\\Project\\DSA\\Practice\\DSA\\DSA.csproj",
-      "filePath": "C:\\Project\\DSA\\Practice\\DSA\\DSA.csproj",
-      "libraryId": "Microsoft.NETCore.App.Ref",
-      "targetGraphs": [
-        "net9.0"
-      ]
-    },
-    {
-      "code": "NU1100",
-      "level": "Error",
-      "message": "Unable to resolve 'Microsoft.AspNetCore.App.Ref (= 9.0.19)' for 'net9.0'. PackageSourceMapping is enabled, the following source(s) were not considered: Microsoft Visual Studio Offline Packages, nuget.org.",
-      "projectPath": "C:\\Project\\DSA\\Practice\\DSA\\DSA.csproj",
-      "filePath": "C:\\Project\\DSA\\Practice\\DSA\\DSA.csproj",
-      "libraryId": "Microsoft.AspNetCore.App.Ref",
-      "targetGraphs": [
-        "net9.0"
-      ]
-    },
-    {
-      "code": "NU1100",
-      "level": "Error",
-      "message": "Unable to resolve 'Microsoft.NETCore.App.Host.win-x64 (= 9.0.19)' for 'net9.0'. PackageSourceMapping is enabled, the following source(s) were not considered: Microsoft Visual Studio Offline Packages, nuget.org.",
-      "projectPath": "C:\\Project\\DSA\\Practice\\DSA\\DSA.csproj",
-      "filePath": "C:\\Project\\DSA\\Practice\\DSA\\DSA.csproj",
-      "libraryId": "Microsoft.NETCore.App.Host.win-x64",
-      "targetGraphs": [
-        "net9.0"
-      ]
-    }
-  ]
+  "logs": []
 }

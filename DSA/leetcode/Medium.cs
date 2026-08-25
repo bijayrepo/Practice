@@ -115,6 +115,7 @@ namespace DSA.leetcode
             num4 = array_LeadCode.plusOne(nums2);
             int res3 = string_LeadCode.MyAtoi(str1);
             int res4 = string_LeadCode.RomanToInt("MCMXC");
+            string res5 = string_LeadCode.IntToRoman(1996);
             bool isPalindrome = algorithms.IsPalindrome(x);
             isPalindrome=algorithms.IsValid("()[]{}");
             Console.WriteLine("Median of the two sorted arrays is: " + result);

@@ -54,5 +54,49 @@ namespace DSA.leetcode.String
             }
             return total;
         }
+        public string IntToRoman(int num)
+        {
+            (int value, string symbol)[] romanNumerals =
+             {
+                (1000, "M"),
+                (500, "D"),
+                (100, "C"),
+                (50, "L"),
+                (10, "X"),
+                (5, "V"),
+                (1, "I")
+            };
+
+            string result = "";
+
+            for (int i = 0; i < romanNumerals.Length; i++)
+            {
+                int value = romanNumerals[i].value;
+                string symbol = romanNumerals[i].symbol;
+
+                int nextValue = i + 1 < romanNumerals.Length
+                    ? romanNumerals[i + 1].value
+                    : 0;
+
+                string nextSymbol = i + 1 < romanNumerals.Length
+                    ? romanNumerals[i + 1].symbol
+                    : "";
+
+                // Subtractive case
+                if (num >= value - nextValue && num < value)
+                {
+                    result += nextSymbol + symbol;
+                    num -= value - nextValue;
+                }
+
+                while (num >= value)
+                {
+                    result += symbol;
+                    num -= value;
+                }
+            }
+
+            return result;
+        }
     }
 }
