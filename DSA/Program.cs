@@ -1,7 +1,9 @@
 ﻿using DSA.Arrays;
+using DSA.leetcode;
+using DSA.leetcode.DynamicProgramming;
 using DSA.LINQ;
 using DSA.List;
-using DSA.leetcode;
+using Microsoft.Extensions.DependencyInjection;
 
 namespace DSA
 {
@@ -9,6 +11,9 @@ namespace DSA
     {
         static void Main(string[] args)
         {
+            var services = new ServiceCollection();
+            services.DynamicProgrammingAddApplicationServices();
+            var serviceProvider = services.BuildServiceProvider();
             //Fibonacci Series
             //Fibonacci.RecursiveApproach.Run();
             //Fibonacci.IteractiveApproach.Run();
@@ -25,8 +30,14 @@ namespace DSA
             //InterviewQuestions
             //Interview.InterviewQuestions.Run();
             //Leetcode
-            RunMedium.Run();
-            Console.WriteLine();
+            //RunMedium.Run();
+            //Console.WriteLine();
+            //Dynamic Programming
+            //ILeetcodeDynamicProgramming leetcodeDynamicProgramming = new LeetcodeDynamicPrograming();
+           
+            var dynamicProgramming = serviceProvider.GetRequiredService<ILeetcodeDynamicProgramming>();
+            Console.WriteLine(dynamicProgramming.ClimbStairs(5));
+            //DynamicProgramming End
         }
     }
 }

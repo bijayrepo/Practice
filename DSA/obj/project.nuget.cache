@@ -1,8 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "OxTooNPONPU=",
+  "dgSpecHash": "m0iwjQrPQtU=",
   "success": true,
   "projectFilePath": "C:\\Project\\DSA\\Practice\\DSA\\DSA.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\devadmin\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\10.0.11\\microsoft.extensions.dependencyinjection.10.0.11.nupkg.sha512",
+    "C:\\Users\\devadmin\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\10.0.11\\microsoft.extensions.dependencyinjection.abstractions.10.0.11.nupkg.sha512"
+  ],
   "logs": []
 }
