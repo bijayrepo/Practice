@@ -8,5 +8,6 @@ namespace DSA.leetcode.DynamicProgramming
     {
         public int ClimbStairs(int n);
         public IList<IList<int>> Generate(int numRows);
+        public int MaxProfit(int[] prices);
     }
 }

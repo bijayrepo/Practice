@@ -37,7 +37,8 @@ namespace DSA
            
             var dynamicProgramming = serviceProvider.GetRequiredService<ILeetcodeDynamicProgramming>();
             Console.WriteLine(dynamicProgramming.ClimbStairs(5));
-            Console.WriteLine(string.Join(", ", dynamicProgramming.Generate(5).Select(row => string.Join(", ", row))));
+            Console.WriteLine(string.Join(", ", dynamicProgramming.Generate(3).Select(row => string.Join(", ", row))));
+            Console.WriteLine("Stock maximum profit: " + dynamicProgramming.MaxProfit(new int[] { 7, 1, 5, 3, 6, 4 }));
             //DynamicProgramming End
         }
     }
