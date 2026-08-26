@@ -37,6 +37,7 @@ namespace DSA
            
             var dynamicProgramming = serviceProvider.GetRequiredService<ILeetcodeDynamicProgramming>();
             Console.WriteLine(dynamicProgramming.ClimbStairs(5));
+            Console.WriteLine(string.Join(", ", dynamicProgramming.Generate(5).Select(row => string.Join(", ", row))));
             //DynamicProgramming End
         }
     }
