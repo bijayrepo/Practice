@@ -4,12 +4,12 @@ using System.Text;
 
 namespace DSA.leetcode.DynamicProgramming
 {
-    public class LeetcodeDynamicPrograming: ILeetcodeDynamicProgramming
+    public class LeetcodeDynamicPrograming : ILeetcodeDynamicProgramming
     {
         public int ClimbStairs(int n)
         {
-           if(n<=2) return n;
-           int first = 1;
+            if (n <= 2) return n;
+            int first = 1;
             int second = 2;
             for (int i = 3; i <= n; i++)
             {
@@ -22,7 +22,7 @@ namespace DSA.leetcode.DynamicProgramming
         public IList<IList<int>> Generate(int numRows)
         {
             IList<IList<int>> triangle = new List<IList<int>>();
-            IList<int> rowCopy= new List<int>();
+            IList<int> rowCopy = new List<int>();
             for (int i = 0; i < numRows; i++)
             {
                 IList<int> row = new List<int>();
@@ -40,7 +40,7 @@ namespace DSA.leetcode.DynamicProgramming
                 rowCopy = row.ToList(); // Create a copy of the row
                 triangle.Add(row);
             }
-            rowCopy = triangle[triangle.Count-1]; // Create a copy of the row
+            rowCopy = triangle[triangle.Count - 1]; // Create a copy of the row
             return triangle;
         }
         public int MaxProfit(int[] prices)
@@ -59,6 +59,30 @@ namespace DSA.leetcode.DynamicProgramming
                 }
             }
             return max;
+        }
+
+        public int Fib(int n)
+        {
+            if (n <= 1)
+                return n;
+
+            int a = 0, b = 1;
+            for (int i = 2; i <= n; i++)
+            {
+                int temp = a + b;
+                a = b;
+                b = temp;
+            }
+            return b;
+        }
+        public int[] CountBits(int n)
+        {
+            int[] ans = new int[n + 1];
+            for (int i = 1; i <= n; i++)
+            {
+                ans[i] = ans[i & (i - 1)] + 1;
+            }
+            return ans;
         }
     }
 }
