@@ -84,5 +84,44 @@ namespace DSA.leetcode.DynamicProgramming
             }
             return ans;
         }
+        public int MinCostClimbingStairs(int[] cost)
+        {
+            if (cost == null || cost.Length == 0) return 0;
+            int n = cost.Length;
+            //if (n == 1) return 0; // can start at step 1 (the top) with zero cost
+
+            // dp[i] = cost to reach step i (0-based). We only need the last two values.
+            int prev2 = 0;
+            int prev1 = 0;
+
+            for (int i = 2; i <= n; i++)
+            {
+                int curr = Math.Min(prev1 + cost[i-1], prev2 + cost[i-2]);
+                prev2 = prev1;
+                prev1 = curr;
+            }
+
+            // To reach the top (one step past the last index) we can come from last or second-last
+            return prev1;
+        }
+
+        public bool DivisorGame(int n)
+        {
+           
+            return n % 2 == 0;
+        }
+        public bool IsSubsequence(string s, string t)
+        {
+            int sIndex = 0, tIndex = 0;
+            while (sIndex < s.Length && tIndex < t.Length)
+            {
+                if (s[sIndex] == t[tIndex])
+                {
+                    sIndex++;
+                }
+                tIndex++;
+            }
+            return sIndex == s.Length;
+        }
     }
 }

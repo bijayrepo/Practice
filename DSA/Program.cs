@@ -40,6 +40,8 @@ namespace DSA
             Console.WriteLine(string.Join(", ", dynamicProgramming.Generate(3).Select(row => string.Join(", ", row))));
             Console.WriteLine("Stock maximum profit: " + dynamicProgramming.MaxProfit(new int[] { 7, 1, 5, 3, 6, 4 }));
             Console.WriteLine(dynamicProgramming.Fib(3));
+            Console.WriteLine(dynamicProgramming.MinCostClimbingStairs(new int[] {1, 100, 1, 1, 1, 100, 1, 1, 100, 1 }));
+            Console.WriteLine(dynamicProgramming.IsSubsequence("abc", "ahbgdc"));
             //DynamicProgramming End
         }
     }

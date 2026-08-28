@@ -11,5 +11,8 @@ namespace DSA.leetcode.DynamicProgramming
         public int MaxProfit(int[] prices);
         public int Fib(int n);
         public int[] CountBits(int n);
+        public int MinCostClimbingStairs(int[] cost);
+        public bool DivisorGame(int n);
+        public bool IsSubsequence(string s, string t);
     }
 }
