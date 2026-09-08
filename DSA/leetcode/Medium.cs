@@ -113,6 +113,7 @@ namespace DSA.leetcode
             int res2 = array_LeadCode.RemoveElement(num4, 2);
             double result = medium.FindMedianSortedArrays(nums1, nums2);
             num4 = array_LeadCode.plusOne(nums2);
+            array_LeadCode.Merge([1, 2, 3, 0, 0, 0], 2, [2, 5, 6], 2);
             int res3 = string_LeadCode.MyAtoi(str1);
             int res4 = string_LeadCode.RomanToInt("MCMXC");
             string res5 = string_LeadCode.IntToRoman(1996);

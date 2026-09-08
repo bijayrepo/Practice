@@ -30,7 +30,7 @@ namespace DSA
             //InterviewQuestions
             //Interview.InterviewQuestions.Run();
             //Leetcode
-            //RunMedium.Run();
+            RunMedium.Run();
             //Console.WriteLine();
             //Dynamic Programming
             //ILeetcodeDynamicProgramming leetcodeDynamicProgramming = new LeetcodeDynamicPrograming();
