@@ -56,6 +56,15 @@ namespace DSA.SystemDesign
                 return;
             }
 
+            Node newnode = new Node(key, value);
+            cache[key] = newnode;
+            MoveHead(newnode);
+            if(cache.Count>capacity)
+            {
+                Node tailPrev = tail.Prev;
+                Remove(tailPrev);
+                cache.Remove(tailPrev.Key);
+            }
 
         }
         private void Remove(Node node)
