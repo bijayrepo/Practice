@@ -1,4 +1,6 @@
-﻿using Microsoft.Extensions.DependencyInjection;
+﻿using DSA.Arrays.Array_Interface;
+using DSA.Arrays.Array_service;
+using Microsoft.Extensions.DependencyInjection;
 using System;
 using System.Collections.Generic;
 using System.Text;
@@ -11,6 +13,7 @@ namespace DSA.leetcode.DynamicProgramming
         this IServiceCollection services)
         {
             services.AddScoped<ILeetcodeDynamicProgramming, LeetcodeDynamicPrograming>();
+            services.AddScoped<Array_interface, Array_Service>();
 
             return services;
         }

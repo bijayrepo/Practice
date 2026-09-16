@@ -1,4 +1,5 @@
 ﻿using DSA.Arrays;
+using DSA.Arrays.Array_Interface;
 using DSA.leetcode;
 using DSA.leetcode.DynamicProgramming;
 using DSA.LINQ;
@@ -36,6 +37,7 @@ namespace DSA
             //ILeetcodeDynamicProgramming leetcodeDynamicProgramming = new LeetcodeDynamicPrograming();
            
             var dynamicProgramming = serviceProvider.GetRequiredService<ILeetcodeDynamicProgramming>();
+            var arrayService = serviceProvider.GetRequiredService<Array_interface>();
             Console.WriteLine(dynamicProgramming.ClimbStairs(5));
             Console.WriteLine(string.Join(", ", dynamicProgramming.Generate(3).Select(row => string.Join(", ", row))));
             Console.WriteLine("Stock maximum profit: " + dynamicProgramming.MaxProfit(new int[] { 7, 1, 5, 3, 6, 4 }));
@@ -43,6 +45,9 @@ namespace DSA
             Console.WriteLine(dynamicProgramming.MinCostClimbingStairs(new int[] {1, 100, 1, 1, 1, 100, 1, 1, 100, 1 }));
             Console.WriteLine(dynamicProgramming.IsSubsequence("abc", "ahbgdc"));
             //DynamicProgramming End
+            //Array Service
+            arrayService.SmallerNumbersThanCurrent(new int[] { 8, 1, 2, 2, 3 });
+            Console.WriteLine("Disappeared numbers: " + string.Join(", ", arrayService.FindDisappearedNumbers(new int[] { 4, 3, 2, 7, 8, 2, 3, 1 })));
         }
     }
 }
