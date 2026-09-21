@@ -126,6 +126,7 @@ namespace DSA.leetcode
             Console.WriteLine("Length of the last word is: " + llw);
             // Merge two sorted linked lists
             list_Leadcode.MergeTwoLists(new ListNode(1, new ListNode(2, new ListNode(4))), new ListNode(1, new ListNode(3, new ListNode(4))));
+            list_Leadcode.LetterCombinations("23");
         }
     }
 }

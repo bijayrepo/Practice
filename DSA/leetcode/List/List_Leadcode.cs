@@ -34,5 +34,38 @@ namespace DSA.leetcode.List
 
             return dummy.next;
         }
+
+        public IList<string> LetterCombinations(string digits)
+        {
+            if (string.IsNullOrEmpty(digits))
+                return new List<string>();
+            string[] mapping = new string[]
+            {
+                "", "", "abc", "def", "ghi", "jkl", "mno", "pqrs", "tuv", "wxyz"
+            };
+            List<string> result = new List<string>();
+            Dictionary<char, string> map = new Dictionary<char, string>();
+            for (int i = 0; i < mapping.Length; i++)
+            {
+                map.Add(i.ToString()[0], mapping[i]);
+            }
+            Backtrack(digits, 0, "", result, map);
+            return result;
+        }
+        private void Backtrack(string digits, int index, string current, List<string> result, Dictionary<char, string> map)
+        {
+            if (index == digits.Length)
+            {
+                result.Add(current);
+                return;
+            }
+
+            string letters = map[digits[index]];
+
+            foreach (char ch in letters)
+            {
+                Backtrack(digits, index + 1, current + ch, result, map);
+            }
+        }
     }
 }

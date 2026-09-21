@@ -9,6 +9,7 @@ namespace DSA.leetcode.List
     public interface IList_leadcode
     {
         public ListNode MergeTwoLists(ListNode list1, ListNode list2);
+        public IList<string> LetterCombinations(string digits);
     }
     public class ListNode
     {
