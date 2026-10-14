@@ -18,3 +18,12 @@ class LeetcodeString:
 
         return result
 
+    def LengthOfLastWord(self,s:str)->int:
+        l=len(s)-1
+        while l>=0 and s[l]==' ':
+            l-=1
+        length=0
+        while l>=0 and s[l]!=' ':
+            length+=1
+            l-=1
+        return length

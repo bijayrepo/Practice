@@ -10,5 +10,6 @@ namespace DSA.leetcode.Algorithms
     {
         public bool IsPalindrome(int x);
         public bool IsValid(string s);
+        public bool IsMatch(string s, string p);
     }
 }
