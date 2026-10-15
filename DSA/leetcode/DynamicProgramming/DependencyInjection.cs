@@ -1,5 +1,6 @@
 ﻿using DSA.Arrays.Array_Interface;
 using DSA.Arrays.Array_service;
+using DSA.leetcode.Algorithms;
 using Microsoft.Extensions.DependencyInjection;
 using System;
 using System.Collections.Generic;
@@ -14,6 +15,7 @@ namespace DSA.leetcode.DynamicProgramming
         {
             services.AddScoped<ILeetcodeDynamicProgramming, LeetcodeDynamicPrograming>();
             services.AddScoped<Array_interface, Array_Service>();
+            services.AddScoped<IAlgorithms_leedcode, Algorithims_leedcode>();
 
             return services;
         }
