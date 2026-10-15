@@ -12,5 +12,6 @@ namespace DSA.leetcode.Algorithms
         public bool IsValid(string s);
         public bool IsMatch(string s, string p);
         public IList<IList<int>> ThreeSum(int[] nums);
+        public int ThreeSumClosest(int[] nums, int target);
     }
 }

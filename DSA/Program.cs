@@ -51,6 +51,7 @@ namespace DSA
             Console.WriteLine("Disappeared numbers: " + string.Join(", ", arrayService.FindDisappearedNumbers(new int[] { 4, 3, 2, 7, 8, 2, 3, 1 })));
             var algorithimsLeddcode = serviceProvider.GetRequiredService<IAlgorithms_leedcode>();
             algorithimsLeddcode.ThreeSum(new int[] { -1, 0, 1, 2, -1, -4 });
+            algorithimsLeddcode.ThreeSumClosest(new int[] { -1, 2, 1, -4 }, 1);
         }
     }
 }
